@@ -1,0 +1,14 @@
+{
+  "name": "firestore-firefox-extension-issue",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": [],
+  "background": {
+    "scripts": [
+      "firebase-app-7.5.0.js",
+      "firebase-auth-7.5.0.js",
+      "firebase-firestore-7.5.0.js",
+      "background.js"
+    ]
+  }
+}
